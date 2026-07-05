@@ -1,0 +1,9 @@
+langchain
+langchain-openai
+dotenv
+langchain-google-genai
+langchain-groq
+langchain-community
+beautifulsoup4
+langchain-text-splitters
+pydantic
