@@ -9,4 +9,5 @@ langchain-text-splitters
 pydantic
 fastapi
 uvicorn[standard]
-
+tavily-python
+rich
