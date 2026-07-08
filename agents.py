@@ -12,14 +12,14 @@ llm = ChatGroq(model="openai/gpt-oss-120b",temperature=0)
 
 def build_search_agent():
     return create_agent(
-        llm=llm,    
+        model=llm,    
         tools=[web_search],       
     )
 
 # Second Agent
 def build_reader_agent():
     return create_agent(
-        llm=llm,
+        model=llm,
         tools=[scrape_webpage],       
     )
 
