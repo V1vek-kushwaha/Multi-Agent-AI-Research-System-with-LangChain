@@ -1,7 +1,18 @@
-# gitignore template for LangChain products, e.g., LangGraph, LangSmith
-# website: https://www.langchain.com/
-# website: https://www.langchain.com/langgraph
+# Python
+backend/.venv/
+.venv/
+__pycache__/
+*.pyc
 
-# LangGraph
-.langgraph_api/
+# Environment secrets
 .env
+backend/.env
+frontend/.env
+
+# React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# VS Code
+.vscode/
