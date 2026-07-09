@@ -16,8 +16,10 @@ app = FastAPI(title="Multi-Agent Research API")
 # Allow the Vite dev server (and localhost preview build) to call this API.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[        
-        "https://multi-agent-ai-research-system-with-nine.vercel.app/"
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://multi-agent-ai-research-system-with-nine.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
